@@ -2,8 +2,9 @@ namespace FirstConsoleApp.Models
 {
 	public class Computer
 	{
+		public int ComputerId { get; set; }
 		public string Motherboard { get; set; }
-		public int CPUCores { get; set; }
+		public int? CPUCores { get; set; }
 		public bool HasWiFi { get; set; }
 		public bool HasLTE { get; set; }
 		public DateTime ReleaseDate { get; set; }
@@ -15,6 +16,7 @@ namespace FirstConsoleApp.Models
 		{
 			if (VideoCard == null) VideoCard = "";
 			if (Motherboard == null) Motherboard = "";
+			if(CPUCores == null) CPUCores = 0;
 		}
 	}
 }
