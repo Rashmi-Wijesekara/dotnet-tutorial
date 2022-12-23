@@ -66,3 +66,5 @@ F:\Projects\dot-net\FirstConsoleApp\bin\Debug\net6.0\Microsoft.Extensions.FilePr
 F:\Projects\dot-net\FirstConsoleApp\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
 F:\Projects\dot-net\FirstConsoleApp\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
 F:\Projects\dot-net\FirstConsoleApp\bin\Debug\net6.0\appsettings.json
+F:\Projects\dot-net\FirstConsoleApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+F:\Projects\dot-net\FirstConsoleApp\bin\Debug\net6.0\AutoMapper.dll
