@@ -24,5 +24,17 @@ namespace DotNetAPI
 			IDbConnection dbConnection = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
 			return dbConnection.QuerySingle<T>(query);
 		}
+
+		public bool ExecuteSql(string query)
+		{
+			IDbConnection dbConnection = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
+			return dbConnection.Execute(query) > 0;
+		}
+
+		public int ExecuteSqlWithRowCount(string query)
+		{
+			IDbConnection dbConnection = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
+			return dbConnection.Execute(query);
+		}
 	}
 }
